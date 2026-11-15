@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rusty Demon: explore Blizzard game archives</title>
+<meta name="description" content="Rusty Demon opens the archives Blizzard games ship in. Browse, search, preview and export models, textures, sprites and data from World of Warcraft, Diablo, StarCraft and more. Windows, macOS, Linux and Steam Deck.">
+<link rel="canonical" href="https://rustydemon.holdmybeer.gg/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rustydemon.holdmybeer.gg/">
+<meta property="og:title" content="Rusty Demon: explore Blizzard game archives">
+<meta property="og:description" content="Browse, search, preview and export what is inside World of Warcraft, Diablo, StarCraft and more. Windows, macOS, Linux and Steam Deck.">
+<meta property="og:image" content="https://rustydemon.holdmybeer.gg/media/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rusty Demon: explore Blizzard game archives">
+<meta name="twitter:description" content="Browse, search, preview and export what is inside World of Warcraft, Diablo, StarCraft and more.">
+<meta name="twitter:image" content="https://rustydemon.holdmybeer.gg/media/og.jpg">
+<meta name="theme-color" content="#0a0e14">
+<link rel="icon" type="image/png" href="media/favicon.png">
+<link rel="apple-touch-icon" href="media/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Rusty Demon",
+  "alternateName": "rustydemon",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Windows, macOS, Linux",
+  "description": "An explorer for the CASC and MPK archives Blizzard games ship in: browse, search, preview and export models, textures, sprites and data.",
+  "url": "https://rustydemon.holdmybeer.gg/",
+  "codeRepository": "https://github.com/HoldMyBeer-gg/rustydemon",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="wrap">
+  <nav aria-label="Site">
+    <a class="brand" href="/">
+      <img src="media/emblem.png" alt="" width="40" height="40">
+      <span>Rusty Demon</span>
+    </a>
+    <div class="links">
+      <a href="#games">Games</a>
+      <a href="#preview">Preview</a>
+      <a href="#export">Export</a>
+      <a href="#download">Download</a>
+      <a href="https://github.com/HoldMyBeer-gg/rustydemon">GitHub</a>
+    </div>
+  </nav>
+</div>
+
+<main id="main">
+<div class="wrap">
+
+  <header class="hero">
+    <div class="hero-copy">
+      <div class="emblem" aria-hidden="true">
+        <img src="media/emblem.png" alt="" width="176" height="176">
+      </div>
+      <p class="eyebrow">CASC and MPK explorer</p>
+      <h1>See what is inside the game.</h1>
+      <p class="lede">Rusty Demon opens the archives Blizzard games ship in. Browse every file, search by name, preview models and textures, and export them for Blender. It runs on Windows, macOS, Linux and Steam Deck.</p>
+      <div class="cta">
+        <a class="btn primary" href="#download">Download <span data-version></span></a>
+        <a class="btn ghost" href="https://github.com/HoldMyBeer-gg/rustydemon">Source on GitHub</a>
+      </div>
+      <p class="fine">Free and open source. For personal and educational use.</p>
+    </div>
+    <figure class="window">
+      <img src="media/wow_m2.png" width="1230" height="816" alt="Rusty Demon on Windows: a file tree on the left, search results for Sylvanas in the middle, and her World of Warcraft model in the 3D preview on the right">
+    </figure>
+  </header>
+
+  <section id="games">
+    <p class="eyebrow">Games</p>
+    <h2>Point it at an install folder</h2>
+    <p class="sub">Choose <strong>File, Open Game Directory</strong> and pick the folder the game lives in. Rusty Demon works out which game it is. The tag beside each name is the product code the app shows once the game is open.</p>
+    <ul class="games">
+      <li>
+        <div class="game-head"><h3>World of Warcraft</h3><span class="tag">wow</span></div>
+        <p>Models in the 3D viewer, BLP textures, and export of models with bones and animations.</p>
+      </li>
+      <li>
+        <div class="game-head"><h3>Diablo IV</h3><span class="tag">fenris</span></div>
+        <p>Battle.net and Steam installs. Textures, skill data and movies preview in the app.</p>
+      </li>
+      <li>
+        <div class="game-head"><h3>Diablo III</h3><span class="tag">d3</span></div>
+        <p>Every file named from the game's own tables. Models, textures, text, and animated export.</p>
+      </li>
+      <li>
+        <div class="game-head"><h3>Diablo Immortal</h3><span class="tag">anbs</span></div>
+        <p>Reads the MPK packages this game uses. Meshes open painted with their textures.</p>
+      </li>
+      <li>
+        <div class="game-head"><h3>StarCraft II</h3><span class="tag">s2</span></div>
+        <p>Textured models in the 3D viewer, DDS textures, and export with bones and animations.</p>
+      </li>
+      <li>
+        <div class="game-head"><h3>StarCraft</h3><span class="tag">s1</span></div>
+        <p>Unit and building sprites preview as sheets of frames.</p>
+      </li>
+      <li>
+        <div class="game-head"><h3>Diablo II: Resurrected</h3><span class="tag">osi</span></div>
+        <p>Opens the newer storage layout, with files spread over more than one data folder.</p>
+      </li>
+      <li>
+        <div class="game-head"><h3>And more</h3><span class="tag">hero</span><span class="tag">pro</span><span class="tag">hs</span></div>
+        <p>Heroes of the Storm, Overwatch and Hearthstone open for browsing, search and raw export.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="preview">
+    <p class="eyebrow">Preview</p>
+    <h2>Look before you export</h2>
+    <p class="sub">Select a file and the right panel shows it: a model you can turn, a texture, a sprite sheet, or the readable form of a data file. Each kind of file brings its own export buttons.</p>
+    <div class="shots">
+      <figure>
+        <div class="window"><img loading="lazy" src="media/di_mesh.png" width="1230" height="816" alt="A Diablo Immortal barbarian armour mesh, textured, in the 3D preview on macOS"></div>
+        <figcaption><strong>Diablo Immortal mesh</strong><span class="os">macOS</span></figcaption>
+      </figure>
+      <figure>
+        <div class="window"><img loading="lazy" src="media/sc1_grp.png" width="1230" height="816" alt="A StarCraft unit sprite sheet in the preview panel on Steam Deck"></div>
+        <figcaption><strong>StarCraft sprite</strong><span class="os">Steam Deck</span></figcaption>
+      </figure>
+      <figure>
+        <div class="window"><img loading="lazy" src="media/d4_tex.png" width="1230" height="816" alt="A Diablo IV texture in the preview panel"></div>
+        <figcaption><strong>Diablo IV texture</strong></figcaption>
+      </figure>
+      <figure>
+        <div class="window"><img loading="lazy" src="media/d4_pow.png" width="1230" height="816" alt="Diablo IV skill data shown as readable text with its formulas"></div>
+        <figcaption><strong>Diablo IV skill data</strong></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="export">
+    <p class="eyebrow">Export</p>
+    <h2>Into Blender with bones and motion</h2>
+    <p class="sub">Models from World of Warcraft, Diablo III and StarCraft II export as glTF, a format Blender opens directly. The file carries the mesh, its textures, the skeleton, and the game's animations as separate actions.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Models</h3>
+        <p>glTF with skeleton and animations, or plain OBJ with a material file when you only need the shape.</p>
+      </div>
+      <div class="card">
+        <h3>Textures and sprites</h3>
+        <p>PNG, decoded from BLP, DDS and the Diablo texture formats.</p>
+      </div>
+      <div class="card">
+        <h3>Movies and everything else</h3>
+        <p>Diablo IV movies export as Bink video. Any file at all exports raw, exactly as stored.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="search">
+    <div class="split">
+      <div>
+        <p class="eyebrow">Search</p>
+        <h2>Find one file among millions</h2>
+        <p class="sub">Search covers the whole archive at once, whichever folder is open. Type part of a name, or a pattern such as <code>*.wmo</code> or <code>textures/*.tex</code>.</p>
+        <p class="sub">Deep search goes one step further and looks inside container files, so a Diablo IV skill can be found by a word in its data.</p>
+      </div>
+      <div>
+        <p class="eyebrow">Command line</p>
+        <h2>Batch export without the window</h2>
+        <p class="sub">The source also builds <code>rustydemon-cli</code> for scripts: pick files by path, pattern or file ID and write them to a folder.</p>
+<pre tabindex="0"><span class="p">$</span> cargo run --release -p rustydemon-cli -- \
+    --archive <span class="s">"~/.steam/steam/steamapps/common/Diablo IV"</span> \
+    --path <span class="s">"**/cinematics/*.vid"</span> \
+    --output ./out</pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="steam">
+    <p class="eyebrow">Steam Diablo IV</p>
+    <h2>The Steam build opens too</h2>
+    <p class="sub">Diablo IV on Steam stores its files in a different layout from the Battle.net version, one that older archive tools were written before. Rusty Demon reads both and tells them apart on its own.</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th scope="col"></th><th scope="col">Battle.net</th><th scope="col">Steam</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Starts from</th><td><code>.build.info</code></td><td><code>Data/.build.config</code></td></tr>
+          <tr><th scope="row">Archive files</th><td><code>data.NNN</code></td><td><code>meta.dat</code> and <code>payload.dat</code> pairs</td></tr>
+          <tr><th scope="row">Where a file is</th><td>Looked up in index files</td><td>Packed into the file's own key</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="download">
+    <p class="eyebrow">Download</p>
+    <h2>Get Rusty Demon <span data-version></span></h2>
+    <p class="sub">Pick your system. Each link goes to the latest release.</p>
+    <div class="downloads">
+      <a class="dl" data-asset=".msi" href="https://github.com/HoldMyBeer-gg/rustydemon/releases/latest">
+        <span class="dl-os">Windows</span><span class="dl-kind">Installer (.msi)</span>
+      </a>
+      <a class="dl" data-asset=".dmg" href="https://github.com/HoldMyBeer-gg/rustydemon/releases/latest">
+        <span class="dl-os">macOS</span><span class="dl-kind">Disk image (.dmg)</span>
+      </a>
+      <a class="dl" data-asset="linux-gnu.tar.gz" href="https://github.com/HoldMyBeer-gg/rustydemon/releases/latest">
+        <span class="dl-os">Linux and Steam Deck</span><span class="dl-kind">Archive (.tar.gz)</span>
+      </a>
+    </div>
+    <div class="notes">
+      <div>
+        <h3>First launch</h3>
+        <p>The installers are not code-signed yet, so the system warns once.</p>
+        <p><strong>Windows:</strong> on the SmartScreen prompt choose More info, then Run anyway.</p>
+        <p><strong>macOS:</strong> right-click the app and choose Open, then Open again.</p>
+      </div>
+      <div>
+        <h3>Check the download</h3>
+        <p>Every release lists a SHA-256 checksum for each file and carries GitHub's signed record that it was built from the tagged source. With the GitHub CLI:</p>
+<pre tabindex="0"><span class="p">$</span> gh attestation verify &lt;file&gt; \
+    --repo HoldMyBeer-gg/rustydemon</pre>
+      </div>
+      <div>
+        <h3>Build it yourself</h3>
+        <p>With the Rust toolchain installed:</p>
+<pre tabindex="0"><span class="p">$</span> git clone https://github.com/HoldMyBeer-gg/rustydemon
+<span class="p">$</span> cd rustydemon
+<span class="p">$</span> cargo run --release -p rustydemon</pre>
+      </div>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <p>Rusty Demon is free software under AGPL-3.0 with the Commons Clause, for personal and educational use. Made by <a href="https://github.com/jabberwock">jabberwock</a> at <a href="https://github.com/HoldMyBeer-gg">HoldMyBeer</a>.</p>
+    <p>This project has no connection to Blizzard Entertainment. Game names and artwork belong to their owners. You need your own copy of a game to open it.</p>
+    <p class="foot-links"><a href="https://github.com/HoldMyBeer-gg/rustydemon">GitHub</a><a href="https://github.com/HoldMyBeer-gg/rustydemon/releases">Releases</a><a href="https://github.com/HoldMyBeer-gg/rustydemon/issues">Report a problem</a></p>
+  </div>
+</footer>
+
+<script>
+// Point the download buttons at the latest release's files. Without this
+// (no script, or GitHub unreachable) they go to the release page.
+fetch("https://api.github.com/repos/HoldMyBeer-gg/rustydemon/releases/latest")
+  .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+  .then(function (rel) {
+    var version = String(rel.tag_name || "").replace(/^v/, "");
+    if (/^[0-9][0-9A-Za-z.\-]*$/.test(version)) {
+      document.querySelectorAll("[data-version]").forEach(function (el) {
+        el.textContent = version;
+      });
+    }
+    document.querySelectorAll("[data-asset]").forEach(function (link) {
+      var ending = link.getAttribute("data-asset");
+      var asset = (rel.assets || []).find(function (a) {
+        return a.name.slice(-ending.length) === ending;
+      });
+      var url = asset && asset.browser_download_url;
+      if (url && url.indexOf("https://github.com/HoldMyBeer-gg/rustydemon/releases/download/") === 0) {
+        link.href = url;
+      }
+    });
+  })
+  .catch(function () {});
+</script>
+</body>
+</html>
